@@ -1,0 +1,8 @@
+package rest
+
+func Server(){
+
+	
+}
+
+
