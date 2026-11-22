@@ -1,8 +1,6 @@
 package main
 
-import (
-	"payreminder/cmd"
-)
+import "payreminder/cmd"
 
 // @title       PayReminder API
 // @version     1.0
@@ -16,4 +14,5 @@ import (
 
 func main() {
 	cmd.Start()
+
 }

@@ -1,1 +1,48 @@
+
+# Environment & Secrets
 .env
+.env.*
+!.env.example
+
+# Go binaries
+main
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build directories
+/bin/
+/build/
+/dist/
+
+# Go coverage
+coverage.out
+coverage.html
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Docker
+docker-compose.override.yml
+
+# Local database backups
+*.sql.gz
+*.dump

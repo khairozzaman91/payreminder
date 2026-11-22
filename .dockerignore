@@ -1,3 +1,9 @@
 .git
+.github
 .env
-*.md
+.env.*
+!.env.example
+*.log
+tmp/
+bin/
+
